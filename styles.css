@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    display: flex;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+ 
+}
+
+.container__left{
+    display: flex;
+    flex: 0.07;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: 7px 11px 182px -22px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 11px 182px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 11px 182px -22px rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 100;
+}
+
+.container__left__img{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.container__left__img>img{
+    width: 100%;
+
+}
+
+.container__left__icons{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: center;
+    height: 20%;
+    justify-content: space-between;
+    
+}
+
+.container__left__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    color: #bbbdbf;
+    border: 1px solid #f5f5f5;
+    padding:5px;
+    width: 90%;
+    margin-bottom: 4px;
+}
+
+.container__left__icon>p{
+    font-size: 11px;
+}
+
+.container__right{
+    display: flex;
+    flex:0.93;
+    background-color: white;
+   flex-direction: column;
+}
+
+.container__right__top{
+    flex: 0.11;
+}
+
+.container__right__bottom{
+    flex: 0.89;
+    background-color: #f0f4f5;
+}
+
+.container__right__tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    margin-left: 20px;
+    color: grey;
+    font-weight: 600;
+}
+
+.container__right__contentTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__right__contentTop>input{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.container__right__contentTop>input::placeholder{
+    color: #262626;
+    font-weight: bold;
+}
+
+.container__right__contentTop>p{
+    font-weight: bold;
+}
+
+.container__right__upload{
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+
+}
+
+.container__right__upload>p{
+    font-weight: bold;
+}
